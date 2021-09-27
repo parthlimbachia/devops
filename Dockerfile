@@ -11,5 +11,6 @@ RUN unzip pure.zip
 RUN cp -rvf pure/* .
 CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
 CMD ["/usr/sbin/sshd", "-D"]
+CMD ["/bin/bash", "-D"]
 EXPOSE 80
 EXPOSE 22
