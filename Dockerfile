@@ -10,6 +10,7 @@ WORKDIR /var/www/html
 RUN unzip pure.zip
 RUN cp -rvf pure/* .
 ENTRYPOINT /usr/sbin/apache2ctl -D FOREGROUND
+CMD /usr/sbin/sshd -D
 EXPOSE 80
 EXPOSE 22
 
