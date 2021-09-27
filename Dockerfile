@@ -9,7 +9,7 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page271/pu
 WORKDIR /var/www/html
 RUN unzip pure.zip
 RUN cp -rvf pure/* .
-CMD ["apache2ctl", "-D", "FOREGROUND"]
+CMD ["apache2", "-D", "FOREGROUND"]
 CMD ["/usr/sbin/sshd", "-D"]
 CMD ["/bin/bash", "-D"]
 EXPOSE 80
