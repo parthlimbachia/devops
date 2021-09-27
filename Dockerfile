@@ -14,3 +14,4 @@ CMD ["/usr/sbin/sshd", "-D"]
 CMD ["/bin/bash", "-D"]
 EXPOSE 80
 EXPOSE 22
+
