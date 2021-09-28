@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:latest
 RUN apt-get update -y
 RUN apt-get install openssh-server -y \
     openssh-client* -y \
