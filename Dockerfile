@@ -14,4 +14,3 @@ ENTRYPOINT /usr/sbin/apache2ctl -D FOREGROUND
 CMD /usr/sbin/sshd -D FOREGROUND
 EXPOSE 80
 EXPOSE 22
-
